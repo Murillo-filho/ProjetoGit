@@ -25,6 +25,8 @@ namespace Projeto.DAL.Generics
             }
         }
 
+
+
         public void Update(TEntity obj)
         {
             using (Conexao Con = new Conexao())
