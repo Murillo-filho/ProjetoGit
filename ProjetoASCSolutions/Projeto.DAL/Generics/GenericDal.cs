@@ -15,6 +15,7 @@ namespace Projeto.DAL.Generics
     public class GenericDal <TEntity> : IGenericDal<TEntity>
         where TEntity : class
     {
+
         public void Insert(TEntity obj)
         {
             using (Conexao Con = new Conexao())
